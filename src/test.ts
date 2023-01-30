@@ -1,4 +1,4 @@
-import {Client,GatewayIntentBits} from "npm:discord.js"
+import {Client,GatewayIntentBits} from "npm:discord.js@latest"
 
 const cl:Client = new Client({intents: [
     GatewayIntentBits.Guilds
