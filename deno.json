@@ -1,5 +1,5 @@
 {
     "tasks": {
-        "bot":"deno run --allow-read --allow-env src/test.ts"
+        "bot":"deno run --allow-read --allow-env src/init_bot.ts"
     }
 }
