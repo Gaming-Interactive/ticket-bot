@@ -1,4 +1,6 @@
 import * as DC from "discord.js"
+import "dotenv/config"
+
 const client = new DC.Client({ intents: [DC.GatewayIntentBits.Guilds] });
 
 client.on('ready', () => {
@@ -15,4 +17,4 @@ client.on('interactionCreate', async interaction => {
 
 
 // add enviroment var here
-client.login("");
+client.login(process.env.BOT_TOKEN);
