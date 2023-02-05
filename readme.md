@@ -1,5 +1,5 @@
 
-## Install NodeJS
+## Install NodeJS + run 
 
 > npm install
 
